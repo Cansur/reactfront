@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-color-r {
+  background-color: red;
+}
+
+.color-r {
+  color: red;
+}
+
+.padding-top-30 {
+  padding-top: 30px;
+}
+
+.padding-top-50 {
+  padding-top: 50px;
+}
+
+.text-decoration-line-none {
+  text-decoration-line: none;
+}
+
+.color-white{
+  color: white;
+}
+
+.ulSide {
+  list-style-type: none;
+  background-color: #ccc;
+  width: 15%;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  /* height: 100%; */
+  overflow: auto;
+}
+
+.margin-left-20 {
+  margin-left: 25%;
+  padding: 1px 16px;
+}

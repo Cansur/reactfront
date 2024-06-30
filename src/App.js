@@ -1,25 +1,30 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React, { Component } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Header from './Component/Header';
+import Main from './Component/Main';
+import Product from './Component/Product';
+import "./index.css"
+import SideBar from './Component/SideBar';
+// import NotFound from ''
 
-function App() {
+const App = () => {
 
-  const [posts, setPosts] = useState([]);
-  useEffect(()=>{
-    axios({
-      method:'GET',
-      url:'https://jsonplaceholder.typicode.com/photos'
-    }).then(response => setPosts(response.data))
-  },[]);
-  
   return (
-    <div>
-      <ul>
-        {posts.map((item,index)=>
-        <li key={index}>
-          <div>{item.title}</div>
-          <div><img src={item.thumbnailUrl}/></div>
-        </li>)}
-      </ul>
+    <div className='App'>
+      <BrowserRouter>
+        <Header />
+        <div style={{ backgroundColor: 'black', color: 'white' }}>
+          <div className='container-sm padding-top-50'>
+            <SideBar/>
+            <Routes>
+              <Route path="/" element={<Main/>} />
+              <Route path="/product" element={<Product />} />
+              {/* <Route path="*" element={<NotFound />}/> */}
+            </Routes>
+
+          </div>
+        </div>
+      </BrowserRouter>
     </div>
   );
 }
