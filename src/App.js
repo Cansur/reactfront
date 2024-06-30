@@ -3,12 +3,12 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './Component/Header';
 import Main from './Component/Main';
 import Product from './Component/Product';
+import BoardList from './Component/BoardList';
 import "./index.css"
 import SideBar from './Component/SideBar';
 // import NotFound from ''
 
 const App = () => {
-
   return (
     <div className='App'>
       <BrowserRouter>
@@ -19,6 +19,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Main/>} />
               <Route path="/boardList" element={<BoardList />} />
+              <Route path="/product" element={<Product />} />
             </Routes>
 
           </div>

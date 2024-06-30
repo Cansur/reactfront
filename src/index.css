@@ -55,3 +55,7 @@ code {
 .center {
   text-align: center;
 }
+
+br{
+  padding-top: 30px;
+}
