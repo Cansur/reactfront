@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './Component/Header';
 import Main from './Component/Main';
-import Product from './Component/Product';
+import Announcement from './Component/Announcement';
 import BoardList from './Component/BoardList';
 import "./index.css"
 import SideBar from './Component/SideBar';
@@ -19,9 +19,8 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Main/>} />
               <Route path="/boardList" element={<BoardList />} />
-              <Route path="/product" element={<Product />} />
+              <Route path="/announcement" element={<Announcement />} />
             </Routes>
-
           </div>
         </div>
       </BrowserRouter>
