@@ -16,8 +16,8 @@ const BoardList = () => {
 
 	return (
 		<div className='margin-left-20'>
-			<div className='center' >
-				<img height="450" width="800" src='c.png' />
+			<div className='center'>
+				<img className='border-radius-10' height="450" width="800" src='c.png' />
 			</div>
 			<br />
 			<br />
@@ -27,7 +27,7 @@ const BoardList = () => {
 					<tr className='table-dark'>
 						<th scope="col">번호</th>
 						<th scope="col">말머리</th>
-						<th scope="col">제목</th>
+						<th scope="col" colSpan="4">제목ojrgepgjoeprjgoperjgpo</th>
 						<th scope="col">글쓴이</th>
 						<th scope="col">작성일</th>
 						<th scope="col">조회</th>

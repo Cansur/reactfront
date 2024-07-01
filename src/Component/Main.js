@@ -10,7 +10,7 @@ const Main = (props) => {
 	return (
 		<div className='margin-left-20'>
 			<div className='center' >
-				<img height="450" width="800" src='a.png' />
+				<img className='border-radius-10' height="450" width="800" src='a.png' />
 			</div>
 			<br />
 			<br />

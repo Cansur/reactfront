@@ -6,6 +6,7 @@ import Announcement from './Component/Announcement';
 import BoardList from './Component/BoardList';
 import "./index.css"
 import SideBar from './Component/SideBar';
+import Footer from './Component/Footer';
 // import NotFound from ''
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
             </Routes>
           </div>
         </div>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
