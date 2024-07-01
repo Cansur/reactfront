@@ -59,3 +59,16 @@ code {
 br{
   padding-top: 30px;
 }
+
+table{
+  border-collapse: collapse;
+  border-radius: 10px;
+  border-style: hidden;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px #666;
+  font-size: 0.85em;
+}
+
+.border-radius-20{
+  border-radius: 20px;
+}
