@@ -4,6 +4,7 @@ import Header from './Component/Header';
 import Main from './Component/Main';
 import Announcement from './Component/Announcement';
 import BoardList from './Component/BoardList';
+import Board from './Component/Board';
 import "./index.css"
 import SideBar from './Component/SideBar';
 import Footer from './Component/Footer';
@@ -19,6 +20,7 @@ const App = () => {
             <SideBar/>
             <Routes>
               <Route path="/" element={<Main/>} />
+              <Route path="/board" element={<Board/>} />
               <Route path="/boardList" element={<BoardList />} />
               <Route path="/announcement" element={<Announcement />} />
             </Routes>
