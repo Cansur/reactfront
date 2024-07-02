@@ -20,6 +20,10 @@ code {
   background-color: #212529;
 }
 
+.bgColor-white {
+  background-color: white;
+}
+
 .color-white {
   color: white;
 }

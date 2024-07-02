@@ -35,10 +35,11 @@ const Board = (props) => {
                 </div>
             </div>
             <br/>
-            <div className='padding-20 border-0_5 border-radius-10'>
-                <br/>
+            <br/>
+            <div className='bgColor-white border-radius-10'>
                 <TuiEditor/>
             </div>
+            
         </div>
     );
 };
