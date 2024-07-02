@@ -29,8 +29,8 @@ const Board = (props) => {
                     </ul>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" className="form-label">Title</label>
-                    <input type="text" className="form-control bg-dark color-white" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                    <label for="titleInput" className="form-label">Title</label>
+                    <input type="text" className="form-control bgColor-dark color-white" id="titleInput" aria-describedby="emailHelp"/>
                 </div>
             </div>
             <br/>

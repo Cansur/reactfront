@@ -16,6 +16,10 @@ code {
   background-color: black;
 }
 
+.bgColor-dark {
+  background-color: #212529;
+}
+
 .color-white {
   color: white;
 }
@@ -66,10 +70,6 @@ code {
 
 .text-decoration-line-none {
   text-decoration-line: none;
-}
-
-.color-white{
-  color: white;
 }
 
 .ulSide {
