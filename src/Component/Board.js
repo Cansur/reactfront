@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import TuiEditor from './TuiEditor';
 
 const Board = (props) => {
     const [posts, setPosts] = useState([]);
@@ -36,15 +37,7 @@ const Board = (props) => {
             <br/>
             <div className='padding-20 border-0_5 border-radius-10'>
                 <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+                <TuiEditor/>
             </div>
         </div>
     );
